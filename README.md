@@ -1,6 +1,6 @@
-# [gulp](https://github.com/creative/gulp-tinypng)-tinypng
+# A fork from [gulp](https://github.com/creative/gulp-tinypng)-tinypng
 
-> Minify PNG  using [tinypng](https://tinypng.com/)
+> Minify PNG and JPG using the [tinypng](https://tinypng.com/) API
 
 
 
@@ -28,6 +28,7 @@ gulp.task('tinypng', function () {
 
 
 ## API
+Get your own free [API](https://tinypng.com/developers)-key at [tinify.com](https://tinypng.com/developers).
 
 ### tinypng(options)
 
