@@ -16,11 +16,11 @@ npm install --save-dev gulp-tinypng
 ## Example
 
 ```js
-var gulp = require('gulp');
-var tinypng = require('gulp-tinypng');
+const gulp = require('gulp');
+const tinypng = require('gulp-tinypng');
 
 gulp.task('tinypng', function () {
-	gulp.src('src/**/*.png')
+	gulp.src(['src/**/*.jpg','src/**/*.png'])
 		.pipe(tinypng('API_KEY'))
 		.pipe(gulp.dest('compressed_images'));
 });
@@ -34,5 +34,5 @@ Get your own free [API](https://tinypng.com/developers)-key at [tinify.com](http
 
 
 ## License
-
+This repository is originally licensed by:
 MIT © [Gaurav Jassal](http://gaurav.jassal.me)
